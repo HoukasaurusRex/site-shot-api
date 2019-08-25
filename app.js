@@ -3,7 +3,7 @@ const path = require('path')
 const cookieParser = require('cookie-parser')
 const logger = require('morgan')
 
-const cors = require('./cors')
+const cors = require('./middleware/cors')
 
 const app = express()
 const errorHandler = (err, req, res, next) => {
